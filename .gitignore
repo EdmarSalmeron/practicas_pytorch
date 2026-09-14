@@ -21,3 +21,16 @@ env/
 # Sistema operativo
 .DS_Store
 Thumbs.db
+# Datasets y datos generados
+MNIST_data/
+F_MNIST_data/
+cactus_dataset/
+*.zip
+
+# Modelos y checkpoints generados
+*.pth
+*.pt
+
+# Archivos temporales de entrenamiento
+runs/
+logs/
